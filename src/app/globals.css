@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  overflow-x: hidden;
+}
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.hero-section{
+  height: 100vh;
+  width:100vw;
+  background-image: url("./web1.webp");
+  background-repeat: no-repeat;
+}
